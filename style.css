@@ -33,12 +33,19 @@ body {
 /* Commit 3 – input radius */
 #color-input {
   border-radius: 4px
+
+
 }
 
-#box {
-  margin-top: 1em;
-  width: 150px;
-  height: 150px;
-  background: #ddd;
-  border: 1px solid #aaa
+
+
+  border: 1px solid #aaa;
+  transition: border-color .3s
+}
+
+.rand-hint {
+  margin-top: .6em;
+  color: #666;
+  font-size: .9em
+
 }
