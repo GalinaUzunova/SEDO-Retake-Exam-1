@@ -1,3 +1,4 @@
+
 // Commit 1 – helpers
 const $ = s => document.querySelector(s);
 const box = $('#box');
@@ -18,3 +19,4 @@ function shortHex(h) {
     '#' + h[1] + h[3] + h[5] : h;
 }
 document.addEventListener('DOMContentLoaded', () => log('ready'));
+
